@@ -22,7 +22,7 @@ const CONTENT = {
     badge: "نستخدم واتس اب الرسمي لضمان عدم الحظر نهائي",
     headline: <div className='tracking-normal leading-tight'>حول <span className='text-yellow-700'>أوردر جديد</span> لـ <span className='text-green-700'>بوليصة شحن</span> في ثانية.. بدون موظفين.</div>,
     subHeadline: "بمجرد ما العميل يطلب، السيستم بيبعت له رسالة تأكيد رسمية، بيحدث كشوفات الشحن لحظياً، وبيقترح منتجات تانية يشتريها—يعني غلطات بشرية 'صفر' وأرباح بتزيد أوتوماتيك.",
-    vslThumbnail: "https://placehold.co/1280x720/1e293b/ffffff?text=Play+VSL:+The+AutoConfirm+System",
+    // vslThumbnail: "https://placehold.co/1280x720/1e293b/ffffff?text=Play+VSL:+The+AutoConfirm+System",
     videoId: "oE3r3K_TfC4",
     vslNote: "Watch time: 2:15 • Sound On"
   },
@@ -49,7 +49,7 @@ painPoints: [
 proof: {
     headline: "تحكم كامل في عملياتك.. لحظة بلحظة.",
     desc: "أوتو-كونفيرم مش مجرد أداة لإرسال الرسائل؛ ده بمثابة 'مدير عمليات' رقمي لمتجرك. تابع معدلات التأكيد، الأوردرات الملغية، ونسبة تقليل المرتجعات لحظياً من خلال لوحة تحكم الويب أو عبر تنبيهات تليجرام المباشرة.",
-    image: "/src/assets/dashboard.png",
+    image: "assets/dashboard.png",
     list: [
       "إشعارات تليجرام فورية لكل أوردر يتم تأكيده بنجاح",
       "تحليلات ذكية تتوقع احتمالية المرتجع (RTO) قبل الشحن",
@@ -88,8 +88,8 @@ testimonials: [
     {
       name: "صاحب متجر unishop",
       role: "توسع لـ 2900+ أوردر مؤكد اوتوماتيكي شهرياً",
-      image: "src/assets/social_proof_1.png",
-      profile: "src/assets/unishop.png",
+      image: "assets/social_proof_1.png",
+      profile: "assets/unishop.png",
       quote: <>
       عايز اقولك الحمدلله بقيت اعمل <span className='text-blue-700'>اسكيل</span> وانا مش شايل هم <br />
       حتى التيم كله مشي <br />
@@ -99,8 +99,8 @@ testimonials: [
     {
       name: "صاحب متجر 3ataba.com",
       role: "تم تأكيد 80% من الطلبات في نفس يوم تركيب AutoConfirm !",
-      image: "src/assets/social_proof_2.png",
-      profile: "src/assets/3ataba.png",
+      image: "assets/social_proof_2.png",
+      profile: "assets/3ataba.png",
       quote: <>
       الأرقام هي اللي بتتكلم. تأكيد 80 أوردر من أصل 99 في ثواني وبدون تدخل بشري واحد. السيستم وفر علينا مجهود جبار كان بيضيع في ملاحقة العملاء بالمكالمات.
       </>
@@ -108,7 +108,7 @@ testimonials: [
     {
       name: "صاحب متجر إلكترونيات كبرى.",
       role: "+4500 طلب شهرياً",
-      image: "src/assets/social_proof_3.png",
+      image: "assets/social_proof_3.png",
       profile: "https://i.pinimg.com/736x/d5/1e/60/d51e60ef0899c1b0ce2cd1dbed641a36.jpg",
       quote: <>
       التحول من إدارة الأفراد لإدارة النتائج. بفضل المزامنة اللحظية بين المتجر والداشبورد، نقلنا التيم من 'دائرة التأكيد الروتينية' لمهام البيع والتسويق الحقيقية. دلوقتي بنعمل سكيل وإحنا مطمنين إن السيستم شغال بدقة 100% بدون أي إرهاق بشري.
@@ -182,7 +182,7 @@ const App = () => {
       </nav> */}
 
       <div className="pt-12 flex items-center justify-center mb-6 w-full">
-          <img src="src/assets/logo.png" alt="AutoConfirm Logo" className='w-[200px]' />
+          <img src="assets/logo.png" alt="AutoConfirm Logo" className='w-[200px]' />
       </div>
 
       {/* --- Hero Section --- */}
